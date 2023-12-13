@@ -8,6 +8,6 @@ class StartHandler
 {
     public function __invoke(Nutgram $bot): void
     {
-        $bot->sendMessage('This is an handler!');
+        $bot->sendMessage(__("start"));
     }
 }
